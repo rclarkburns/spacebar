@@ -1,0 +1,20 @@
+[project]
+name = "spacebar"
+version = "0.1.0"
+description = "A playground for Django and SpaceTraders"
+authors = [
+    {name = "Clark Burns",email = "rclarkburns@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.1.6,<6.0.0)",
+    "mysqlclient (>=2.2.7,<3.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
